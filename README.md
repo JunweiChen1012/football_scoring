@@ -1,8 +1,17 @@
-# "Exploring the Dynamics of Football Scoring: A
-Statistical Analysis Inspired by Maher’s Model"
+# "Exploring the Dynamics of Football Scoring: A Statistical Analysis Inspired by Maher’s Model"
 
 ## Overview
-This project conducts a computational text analysis on Frank Lewis Nason's novel "Blue Goose", focusing on the frequency of the letter 'n' within the first thirty lines of each chapter. Utilizing a Generalized Linear Model (GLM) with a Poisson distribution, we investigate the relationship between word count and the occurrence of 'n/N's, aiming to uncover any linguistic patterns or stylistic choices made by Nason in his writing.
+This study applies a simplified version of Maher’s 1982 Poisson distribution
+model to recent English Premier League data to analyze football scores. Using
+the engsoccerdata dataset, we calculated team-specific attacking and defensive
+strengths and employed these in Poisson regression models to predict the number
+of goals scored by home and away teams. Our results validate Maher’s approach,
+showing a significant correlation between team strengths and goal-scoring. However,
+the positive association between defensive strength and goals scored indicates
+complexities not fully addressed by the model. This analysis highlights the utility
+of statistical methods in sports analytics and suggests avenues for further research,
+including the development of more sophisticated models to better capture the dynamics
+of football scoring.
 
 ## File Structure
 
